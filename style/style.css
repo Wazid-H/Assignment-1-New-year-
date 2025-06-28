@@ -28,6 +28,14 @@ h6 {
     margin-top: 120px;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
 /* Header-Area-Style-start */
 .header-area {
     background-image: linear-gradient(90deg, rgba(7, 2, 17, 0.7) 0%, rgba(7, 2, 17, 0.7) 100%), url("../images/Banner Image.png");
@@ -74,13 +82,14 @@ h6 {
     font-weight: 700;
 }
 
-.offer-area p {
+.Commonp {
     color: rgb(255, 0, 0);
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
     padding: 40px 0 20px 0;
 }
+
 
 .section-title {
     color: rgb(7, 2, 17);
@@ -240,4 +249,63 @@ h6 {
 .c3-img {
     border: 2px dashed gray;
     margin-top: 30px;
+}
+
+/* copailot-copy  */
+.holiday-section-title h2 {
+    margin-bottom: 10px;
+}
+
+.holiday-discount-area {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: relative;
+
+
+}
+
+.holiday-img-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.holiday-img-1 {
+    /* object-fit: contain; */
+    border: 2px dashed gray;
+    position: relative;
+
+}
+
+.holiday-img-2 {
+    z-index: 8;
+    position: absolute;
+    right: 272px;
+    top: 220px;
+    border: 2px dashed gray;
+}
+
+.holiday-img-3 {
+    position: absolute;
+    right: 0;
+    bottom: 229px;
+    border: 2px dashed gray;
+}
+
+
+/* portfolio  */
+.portfolio-title h5 {
+    padding: 0;
+}
+
+.portfolio-title h2 {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
